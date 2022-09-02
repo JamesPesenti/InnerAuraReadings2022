@@ -1,0 +1,169 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@100&display=swap');
+  
+  /* Waves */ 
+  
+  body {
+    margin: 0;
+    text-align: center;
+    width: 100%; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 48px;
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    /* color: #333333; */
+    color: white;
+  }
+
+  .gradient {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #a3ffea);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+    height: 700;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .image {
+    width: 140px;
+    height: 140px;
+    position: "center";
+    justify-content: "center";
+    align-items: "center";
+    opacity: 1;
+    vertical-align: middle;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-image {
+      animation: App-image-spin infinite 9s linear;
+    }
+  }
+  
+  @keyframes App-image-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .inner-header {
+    color:white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 350;
+    /* letter-spacing: 4px; */
+    font-size: 45px;
+    height: 65vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-header flex [bootflex] {
+    font-size: 800px;
+  }
+  
+  .flex {
+    /*Flexbox for containers*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
+  }
+  
+  .content{
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: white;
+  }
+  
+  /* Waves Animation */
+  
+  .parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+  }
+  
+  .parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  
+  .parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  
+  .parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  
+  .parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+  
+  @keyframes move-forever {
+    0% {
+      transform: translate3d(-90px, 0, 0);
+    }
+  
+    100% {
+      transform: translate3d(85px, 0, 0);
+    }
+  }
+  
+  /*Shrinking for mobile*/
+  @media only screen and (min-width: 200px) and (max-width: 1000px) {
+    .waves {
+      height: 80px;
+      min-height: 40px;
+    }
+  
+    .content {
+      height: 30vh;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }
+  
+  /* End Waves */

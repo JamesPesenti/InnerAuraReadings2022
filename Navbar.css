@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@100&display=swap');
+
+
+
+
+#white-section {
+    /* padding: 50px 50px; */
+    width: 100%;
+    text-align: center;
+    color: #2FE3FE;
+    font-size: larger;
+    /* background-color: white; */
+    color: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #a3ffea);
+    background-size: 400% 400%;
+    animation: gradient 1s ease infinite;
+  }
+ 
+  .navbar-toggler {
+    background-image: linear-gradient(-85deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #a3ffea);
+    animation: gradient 15s ease infinite;
+    background-size: 400%;
+    padding: 8px;
+  }
+    @keyframes navbar-brand {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    h6 {
+      font-family: 'Julius Sans One', sans-serif;
+      /* color: rgb(255, 255, 255) ; */
+      color: rgb(58, 58, 58);
+    }
+
+    .navbar {
+      padding-top: 14px;
+      padding-bottom: 1px;
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      
+    }
+
+    .inner2 {
+      /* !!!!! This caused the white space bug!!!!! */
+      /* position: static; */
+      width: 90px;
+      margin-top: -17%;
+      margin-bottom: -1%;
+      /* left: 160px; */
+      opacity: 1;
+    }
+  
