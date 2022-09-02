@@ -18,7 +18,7 @@ function ReviewsSlider() {
                     <figure>
                         <img
                             style={{width: 180, height: 200,}}
-                            src="https://www.inneraurareadings.com/pictures/lorena.jpg"
+                            src="pictures/lorena.jpg"
                             class="mt-5 px-15 rounded-xl shadow-xl"
                             alt="Avatar"
                         />
@@ -128,7 +128,7 @@ function ReviewsSlider() {
                         <figure>
                             <img 
                                 style={{width: 180, height: 200,}}
-                                src="https://www.inneraurareadings.com/pictures/christina.JPG" 
+                                src="pictures/christina.JPG" 
                                 class="mt-5 px-15 w-36 rounded-xl shadow-xl" 
                                 alt="Avatar" 
                             />
@@ -184,7 +184,7 @@ function ReviewsSlider() {
                     <figure>
                         <img 
                             style={{width: 180, height: 200,}}
-                            src="https://www.inneraurareadings.com/pictures/4th.jpg" 
+                            src="pictures/4th.jpg" 
                             alt="Shoes" 
                             className="mt-5 px-15 h-48 w-36 rounded-xl shadow-xl"
                         />
