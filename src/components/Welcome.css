@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@100&display=swap');
+
+
+.parallax {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #a3ffea);
+    padding: 12px;
+    margin: 20px 0px 300px;
+    border-radius: 5px;
+    background-size: 400% 400%;
+    animation: gradient 1s ease infinite;
+    transition: all .3s;
+    overflow: "hidden";
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ .welcomeCard {
+    font-family: "'Raleway', sans-serif;";
+    justify-content: "center";
+    text-align: match-parent;
+    font-weight: 500;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #a3ffea);
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 12px;
+    margin: 20px 0px 300px;
+    border-radius: 65px;
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    transition: all .3s;
+    overflow: "hidden";
+} 
+  
+  @keyframes About {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+.message {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.h2 {
+ font-size: 200px;
+}

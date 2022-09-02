@@ -1,0 +1,29 @@
+ 
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ 
+ 
+
+ @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@100&display=swap');
+
+
+
+ .about {
+    font-family: "'Raleway', sans-serif;";
+    justify-content: "center";
+    text-align: match-parent;
+    font-weight: 500;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #a3ffea);
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 1px;
+    margin: 20px 0px 0px;
+    border-radius: 65px;
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    transition: all .3s;
+    overflow: "hidden";
+ }
