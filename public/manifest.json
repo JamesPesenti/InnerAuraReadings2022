@@ -1,11 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#adc6cc",
+  "background_color": "#4bb6d1",
+  "short_name": "Inner Aura",
+  "name": "Inner Aura Readings",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
       "src": "logo192.png",
@@ -17,9 +21,5 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
