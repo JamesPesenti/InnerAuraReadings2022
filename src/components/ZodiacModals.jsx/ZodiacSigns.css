@@ -40,11 +40,12 @@
     font-size: 1.4rem;
     font-weight: 700;
     line-height: 1;
-    color: rgb(149, 96, 202);
-    opacity: .3;
+    color: rgb(87, 32, 141);
+    opacity: .8;
     cursor: 'pointer';
     border: 'none';
-    margin-right: 30px;
+    margin-right: 60px;
+    margin-top: 30px;
   }
   
 
