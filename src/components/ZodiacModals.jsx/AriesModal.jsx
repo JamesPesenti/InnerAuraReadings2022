@@ -20,7 +20,7 @@ const AriesModal = ({ isShowing, hide, toggle, item }) => isShowing ? ReactDOM.c
            marginRight: 5,
            borderRadius: 65,
            width: "100%",
-           height: "20%", 
+           height: "125%", 
            paddingRight: 0,
            paddingLeft: 0,
            shadow: 50, 
