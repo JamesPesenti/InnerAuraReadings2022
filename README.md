@@ -1,5 +1,5 @@
 # InnerAuraReadingsApp
-Built using REACT
+Built using React
 
 
 
