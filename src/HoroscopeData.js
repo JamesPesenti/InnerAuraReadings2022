@@ -12,7 +12,7 @@ const FeedbackData =  [
         id: 2,
         sign: "Taurus",
         date: "Apr 20 to May 20",
-        horoscope: "You may be discouraged about money matters today, Taurus. Perhaps a raise you'd been hoping for didn't come through. Perhaps a professional project didn't work out as you expected. Now is the time to put your ingenuity to work and figure out a way to earn the money you need. Trust that you have the necessary know-how. A good opportunity awaits you.",
+        horoscope: "You may be discouraged about money matters today, Taurus. Perhaps a raise you'd been hoping for or a professional project didn't work out as you expected. Now is the time to put your ingenuity to work and figure out a way to earn the money you need. Trust you have the necessary know-how. A good opportunity awaits you.",
         luckyNumber: Math.floor(Math.random() * 100) + 5,
         source: "https://www.horoscope.com/images-US/signs/profile-taurus.png",
     },
